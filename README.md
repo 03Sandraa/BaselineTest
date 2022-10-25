@@ -11,9 +11,9 @@ Er zijn 3 verschillende stemmen te horen.
 
 | Voice 1 |
 |---|
-| ```font-family: "Brenner Mono";
-
-font-weight: 600;``` |
+| ```font-family: "Brenner Mono";```
+```font-style: Normal;```
+```font-weight: 600;``` |
 
 -	De tweede stem is van K, de persoon die de test aflegt. Ook hij heeft een erg neutrale monotone stem zonder verdere emoties. Wel is er in het tweede fragment een verandering merkbaar. De antwoorden worden dan wat minder monotoon en er komt meer tijd tussen voor hij antwoord geeft. Als of hij meer moet nadenken. Daarom heb ik ervoor gekozen om voor het eerste en tweede deel andere fonts te kiezen met een subtiel verschil, waarbij het eerste deel een wat uniformer font heeft.
 
@@ -31,3 +31,11 @@ font-weight: 600;``` |
 | ```font-family: "Brenner Slab";```
 ```font-style: Italic;```
 ```font-weight: 600;``` |
+
+## Eerste fragment 
+Het eerste fragment begint met dat K aankomt bij de basis van zijn werk. In het schip waarin hij alleen zit maakt hij contact met de basis. Er zijn verschillende alarmen te horen, ieder uniek op zichzelf staand. Voor deze Alarmen heb ik ervoor gekozen om een border glow toe te voegen die de intensiteit van het alarm geluid representeert. Ook beweegt het frame van de video, deze bewegingen is gebaseerd op het gevoel die ik bij elk soort alarm kreeg.
+
+Rond 24 seconde in de video begint er een piepgeluid die gedurende het grootste gedeelte van het eerste fragment steeds harder en irritanter wordt. Met 75.5s valt het geluid totaal weg, dit is het moment dat K het antwoord heeft gegeven op de laatste vraag van de ondervrager. Ik heb deze toon doormiddel van steeds groter en dikker wordende golven na proberen te bootsen, het aantal golven neemt toe naarmate de tijd verstrijkt en de piep aanweziger en irritanter wordt. De kleur van de golven varieert per golf en de golven die later verschijnen krijgen een steeds helderdere kleur. 
+
+Tijdens het kijken naar de eerste baseline test kreeg ik een steeds groter wordend opdringerig overweldigend gevoel. Om dit gevoel over te brengen heb ik ervoor gekozen om het frame van de video gedurende de test geleidelijk groter te laten worden. Wanneer het geluid wegvalt met 75.5s verkleint het frame weer naar zijn oorspronkelijke formaat, doormiddel van een iets bouncende beweging. Ook heb ik met het formaat van de tekst van de ondervrager gespeeld, deze wordt gedurende de test steeds iets groter. Dit heb ik gedaan om de kijker een steeds iets overrompelender gevoel te geven.
+
