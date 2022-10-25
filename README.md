@@ -5,6 +5,9 @@ De video is opgedeeld in twee fragmenten:
 -	Het eerste fragment is het binnenkomen in een basis en de eerste baseline test uit de film. Het fragment duurt van 0s tot 87s, in totaal 87 seconde.
 -	Het tweede fragment is de tweede baseline test uit de film en duurt van 87s tot 135s, in totaal 48 seconde.
 
+## Sfeer
+Om een beter beeld te krijgen van waarover de film gaat heb ik allereerst de film gekeken. Hiervan kreeg ik verschillende ideeën en begon ik na te denken over de sfeer die ik allereerst neer wilde zetten. Ik heb gekozen om een cyberpunk achtige stijl te gebruiken. En voegde een titel toe aan de pagina. Deze titel heeft een streep in het midden en beide verdwijnen wanneer de video wordt gestart, doormiddel van een animatie. Voor de rest heeft het frame een color glow, dit is gebaseerd op neonlichten die goed binnen deze stijl passen. Om dit verder door te trekken heb ik ervoor gekozen om de muis te vervangen door een color dot.
+
 ## Stemmen/Voices
 Er zijn 3 verschillende stemmen te horen. 
 -	De eerste stem is van de persoon die K oproept en ondervrager tijdens de test. De stem heeft een monotone neutrale robot stem. Daarom heb ik ervoor gekozen om deze stem een monospace font te geven.
