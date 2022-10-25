@@ -42,3 +42,24 @@ Rond 24 seconde in de video begint er een piepgeluid die gedurende het grootste 
 
 Tijdens het kijken naar de eerste baseline test kreeg ik een steeds groter wordend opdringerig overweldigend gevoel. Om dit gevoel over te brengen heb ik ervoor gekozen om het frame van de video gedurende de test geleidelijk groter te laten worden. Wanneer het geluid wegvalt met 75.5s verkleint het frame weer naar zijn oorspronkelijke formaat, doormiddel van een iets bouncende beweging. Ook heb ik met het formaat van de tekst van de ondervrager gespeeld, deze wordt gedurende de test steeds iets groter. Dit heb ik gedaan om de kijker een steeds iets overrompelender gevoel te geven.
 
+## Feedback
+### Eerste feedback moment
+Feedback van het eerste feedback moment:
+Op het moment van deze feedback was ik vooral nog bezig geweest om de sfeer toe te passen.
+-	Je hebt een goed begin gemaakt.
+-	Ga meer naar de geluiden kijken.
+-	Let erop dat de tekst op een logische plek staat
+
+Na deze feedback te hebben gekregen heb ik nog verder gekeken naar de geluiden en deze proberen visueel weer te geven. Ook heb ik gekeken naar de tekst en welke plek ik deze het best passend vond.
+
+### Tweede feedback moment
+Feedback van het tweede feedback moment:
+Op het moment van deze feedback had ik het eerste gedeelte na tevredenheid vormgegeven en had ik een begin gemaakt aan het tweede gedeelte (twee achtervolgende objecten en een kloppend borderglow). 
+-	Het begin is erg bescheiden en ingetogen
+-	De golven in het eerste fragment zijn niet irritant genoeg
+-	Het mag allemaal wat meer
+-	Ga nog eens beter kijken naar het tweede gedeelte.
+
+Deze feedback nam ik serieus en ging nog eens goed kijken naar het eerste fragment. Ik had namelijk hiervoor het idee dat dat gedeelte zo goed als af was en wilde me eigenlijk voor de rest van de tijd focussen op het tweede gedeelte. Na hier nog een keer kritisch naar te hebben gekeken, kon ik me hier enigszins wel in vinden. Ik voegde nog wat extra elementen toe: bewegende lichten die het verkeer simuleren wanneer K in zijn (ruimte)schip/voertuig zit; verschillende bewegingen tijdens het afgaan van de alarmen; en het extra toevoegen van de piepgolven om het een extremer en irritanter gevoel mee te geven.
+Verder heb ik het tweede gedeelte geheel opnieuw uitgedacht en een nieuw idee vorm gegeven.
+
