@@ -61,5 +61,5 @@ Op het moment van deze feedback had ik het eerste gedeelte na tevredenheid vormg
 -	Ga nog eens beter kijken naar het tweede gedeelte.
 
 Deze feedback nam ik serieus en ging nog eens goed kijken naar het eerste fragment. Ik had namelijk hiervoor het idee dat dat gedeelte zo goed als af was en wilde me eigenlijk voor de rest van de tijd focussen op het tweede gedeelte. Na hier nog een keer kritisch naar te hebben gekeken, kon ik me hier enigszins wel in vinden. Ik voegde nog wat extra elementen toe: bewegende lichten die het verkeer simuleren wanneer K in zijn (ruimte)schip/voertuig zit; verschillende bewegingen tijdens het afgaan van de alarmen; en het extra toevoegen van de piepgolven om het een extremer en irritanter gevoel mee te geven.
-Verder heb ik het tweede gedeelte geheel opnieuw uitgedacht en een nieuw idee vorm gegeven.
+Verder heb ik het tweede gedeelte geheel opnieuw uitgedacht en een nieuw idee vormgegeven.
 
