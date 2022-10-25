@@ -33,7 +33,7 @@ Er zijn 3 verschillende stemmen te horen.
 ```font-weight: 600;``` |
 
 ## Eerste fragment 
-Het eerste fragment begint met dat K aankomt bij de basis van zijn werk. In het schip waarin hij alleen zit maakt hij contact met de basis. Er zijn verschillende alarmen te horen, ieder uniek op zichzelf staand. Voor deze Alarmen heb ik ervoor gekozen om een border glow toe te voegen die de intensiteit van het alarm geluid representeert. Ook beweegt het frame van de video, deze bewegingen is gebaseerd op het gevoel die ik bij elk soort alarm kreeg.
+Het eerste fragment begint met dat K aankomt bij de basis van zijn werk. In het schip waarin hij alleen zit maakt hij contact met de basis. Tijdens dit fragment gaan er verschillende lichten heen en weer, deze stellen het overige luchtverkeer voor. Verder zijn verschillende alarmen te horen, ieder uniek op zichzelf staand. Voor deze Alarmen heb ik ervoor gekozen om een border glow toe te voegen die de intensiteit van het alarm geluid representeert. Ook beweegt het frame van de video, deze bewegingen is gebaseerd op het gevoel die ik bij elk soort alarm kreeg.
 
 Rond 24 seconde in de video begint er een piepgeluid die gedurende het grootste gedeelte van het eerste fragment steeds harder en irritanter wordt. Met 75.5s valt het geluid totaal weg, dit is het moment dat K het antwoord heeft gegeven op de laatste vraag van de ondervrager. Ik heb deze toon doormiddel van steeds groter en dikker wordende golven na proberen te bootsen, het aantal golven neemt toe naarmate de tijd verstrijkt en de piep aanweziger en irritanter wordt. De kleur van de golven varieert per golf en de golven die later verschijnen krijgen een steeds helderdere kleur. 
 
