@@ -1,3 +1,7 @@
+:root {
+	--BorderboxShadowPartTwo: rgba(255, 249, 197, 0.7);
+}
+
 /*--------------------------------
  Body Base
 --------------------------------*/
@@ -10,7 +14,9 @@ body {
 	background-color: #16161D;
 	position: relative;
 	cursor: none;
+	overflow: hidden;
 }
+
 
 /*--------------------------------
  H1 Baseline Test 
@@ -40,7 +46,7 @@ h1::before {
 	bottom: 0.5em;
 }
 
-.sound0 h1::before{
+.sound0 h1::before {
 	width: 0%;
 	transition: 400ms ease-in-out 0s;
 }
@@ -113,16 +119,21 @@ Feel free to adjust the defaults to your needs.
 }
 
 .voice2 {
-	font-family: "Brenner Sans";
+	font-family: "Brenner Sans Condensed";
 	font-style: Normal;
 	font-weight: 600;
-	color: white;
 }
 
 .voice3 {
 	font-family: "Brenner Slab";
 	font-style: Italic;
-	font-weight: 800;
+	font-weight: 600;
+}
+
+.voice4 {
+	font-family: "Brenner Sans";
+	font-style: Normal;
+	font-weight: 600;
 }
 
 /*--------------------------------
@@ -137,7 +148,7 @@ Officer K D 6 - 3 . 7. Let’s begin. Ready?
 
 .p0.on {
 	position: absolute;
-	top: 0;
+	top: 1rem;
 	color: white;
 	right: 0;
 	width: 35%;
@@ -215,11 +226,11 @@ Yes, sir
 (8.1 - 10)
 --------------------------------*/
 
-.p1.on{
+.p1.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1.5rem;
 	color: white;
-	right: 0;
+	right: 1.5rem;
 	width: 10%;
 	font-size: 1.5em;
 }
@@ -230,11 +241,11 @@ Recite your baseline.
 (10.8 - 12.5)
 --------------------------------*/
 
-.p2.on{
+.p2.on {
 	position: absolute;
-	top: 0.5em;
+	top: 1.5rem;
 	color: white;
-	right: 1em;
+	right: 3.5rem;
 	font-size: 2em;
 }
 
@@ -244,11 +255,11 @@ And blood-black nothingness began to spin
 (12.5 - 15.6)
 --------------------------------*/
 
-.p3.on{
+.p3.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1.5rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -258,11 +269,11 @@ A system of cells interlinked within cells,
 (17.369 - 20)
 --------------------------------*/
 
-.p4.on{
+.p4.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -272,11 +283,11 @@ interlinked within cells, interlinked within one stem.
 (20.1 - 23.3)
 --------------------------------*/
 
-.p5.on{
+.p5.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -286,12 +297,28 @@ Fuck off, skin-job!
 (23.3 - 25.2)
 --------------------------------*/
 
-.p6.on{
+.p6.on {
 	position: absolute;
-	bottom: 0;
 	color: white;
-	right: 1.5em;
-	font-size: 1.5em;
+	bottom: 22rem;
+	left: 35rem;
+	font-size: 1em;
+	animation-name: TextBelediging;
+	animation-duration: 2500ms;
+}
+
+@keyframes TextBelediging {
+	0% {
+		left: 35rem;
+	}
+
+	15% {
+		left: 25rem;
+	}
+
+	100% {
+		left: 22rem;
+	}
 }
 
 /* --------------------------------
@@ -300,11 +327,11 @@ And dreadfully distinct against the dark, a tall white fountain played...
 (26.8 - 31.6)
 --------------------------------*/
 
-.p7.on{
+.p7.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -314,17 +341,17 @@ Cells.
 (32.7 - 33)
 --------------------------------*/
 
-.p8{
+.p8 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 1.5em;
 }
 
-.p8.on{
+.p8.on {
 	position: absolute;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -334,11 +361,11 @@ Cells.
 (33.2 - 34)
 --------------------------------*/
 
-.p9.on{
+.p9.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -348,16 +375,16 @@ Have you ever been in an institution?
 (34 - 36)
 --------------------------------*/
 
-.p10{
+.p10 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 1.6em;
 }
 
-.p10.on{
+.p10.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 30%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -368,16 +395,16 @@ Cells.
 (36 - 36.3)
 --------------------------------*/
 
-.p11{
+.p11 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 1.7em;
 }
 
-.p11.on{
+.p11.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -387,11 +414,11 @@ Cells.
 (36.5 - 37.3)
 --------------------------------*/
 
-.p12.on{
+.p12.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -401,16 +428,16 @@ Do they keep you in a cell?
 (37.3 - 38.6)
 --------------------------------*/
 
-.p13{
+.p13 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 1.8em;
 }
 
-.p13.on{
+.p13.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -420,16 +447,16 @@ Cells.
 (38.6 - 38.9)
 --------------------------------*/
 
-.p14{
+.p14 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 1.9em;
 }
 
-.p14.on{
+.p14.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -439,11 +466,11 @@ Cells.
 (39.1 - 39.9)
 --------------------------------*/
 
-.p15.on{
+.p15.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -453,16 +480,16 @@ When you're not performing your duties, do they keep you in a little box?
 (39.9 - 42.8)
 --------------------------------*/
 
-.p16{
+.p16 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2em;
 }
 
-.p16.on{
+.p16.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 40%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -473,16 +500,16 @@ Cells.
 (42.8 - 43.1)
 --------------------------------*/
 
-.p17{
+.p17 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.1em;
 }
 
-.p17.on{
+.p17.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -492,11 +519,11 @@ Cells.
 (43.3 - 44.1)
 --------------------------------*/
 
-.p18.on{
+.p18.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -506,16 +533,16 @@ Interlinked.
 (44 - 44.5)
 --------------------------------*/
 
-.p19{
+.p19 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.2em;
 }
 
-.p19.on{
+.p19.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -525,11 +552,11 @@ Interlinked.
 (45 - 45.7)
 --------------------------------*/
 
-.p20.on{
+.p20.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -539,17 +566,17 @@ What's it like to hold the hand of someone you love?
 (45.7 - 47.6)
 --------------------------------*/
 
-.p21{
+.p21 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.3em;
 }
 
-.p21.on{
+.p21.on {
 	color: white;
-	left: 1.5em;
-	width: 50%;
+	left: 3.5rem;
+	width: 40%;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -559,16 +586,16 @@ Interlinked.
 (47.6 - 48.1)
 --------------------------------*/
 
-.p22{
+.p22 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.4em;
 }
 
-.p22.on{
+.p22.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -578,11 +605,11 @@ Interlinked.
 (48.3 - 49)
 --------------------------------*/
 
-.p23.on{
+.p23.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -592,16 +619,16 @@ Did they teach you how to feel, finger to finger?
 (49.1 - 50.9)
 --------------------------------*/
 
-.p24{
+.p24 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.5em;
 }
 
-.p24.on{
+.p24.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 40%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -612,16 +639,16 @@ Interlinked.
 (50.9 - 51.4)
 --------------------------------*/
 
-.p25{
+.p25 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.6em;
 }
 
-.p25.on{
+.p25.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -631,11 +658,11 @@ Interlinked.
 (51.6 - 52.3)
 --------------------------------*/
 
-.p26.on{
+.p26.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -645,16 +672,16 @@ Do you long for having your heart interlinked?
 (52.3 - 54)
 --------------------------------*/
 
-.p27{
+.p27 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.7em;
 }
 
-.p27.on{
+.p27.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 40%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -665,16 +692,16 @@ Interlinked.
 (54 - 54.5)
 --------------------------------*/
 
-.p28{
+.p28 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.8em;
 }
 
-.p28.on{
+.p28.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -684,11 +711,11 @@ Interlinked.
 (54.7 - 55.4)
 --------------------------------*/
 
-.p29.on{
+.p29.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -698,16 +725,16 @@ Do you dream about being interlinked?
 (55.4 - 57.2)
 --------------------------------*/
 
-.p30{
+.p30 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 2.9em;
 }
 
-.p30.on{
+.p30.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 45%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -718,11 +745,11 @@ Interlinked.
 (57.2 - 58)
 --------------------------------*/
 
-.p31.on{
+.p31.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -732,16 +759,16 @@ What's it like to hold your child in your arms?
 (58 - 59.8)
 --------------------------------*/
 
-.p32{
+.p32 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 3em;
 }
 
-.p32.on{
+.p32.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 45%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -752,16 +779,16 @@ Interlinked.
 (59.8 - 60.3)
 --------------------------------*/
 
-.p33{
+.p33 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 3.1em;
 }
 
-.p33.on{
+.p33.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -771,11 +798,11 @@ Interlinked.
 (60.3 - 61)
 --------------------------------*/
 
-.p34.on{
+.p34.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -785,16 +812,16 @@ Do you feel that there's a part of you that's missing?
 (61 - 62.7)
 --------------------------------*/
 
-.p35{
+.p35 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 3.2em;
 }
 
-.p35.on{
+.p35.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 45%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -805,16 +832,16 @@ Interlinked.
 (62.7 - 63.2)
 --------------------------------*/
 
-.p36{
+.p36 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 3.3em;
 }
 
-.p36.on{
+.p36.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -824,11 +851,11 @@ Interlinked.
 (63.2 - 63.9)
 --------------------------------*/
 
-.p37.on{
+.p37.on {
 	position: absolute;
-	bottom: 2em;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -838,16 +865,16 @@ Within cells interlinked.
 (63.9 - 65.2)
 --------------------------------*/
 
-.p38{
+.p38 {
 	position: absolute;
 	left: -10em;
 	top: 8rem;
 	font-size: 3.4em;
 }
 
-.p38.on{
+.p38.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	transition: transform 600ms ease-in 0s;
 }
 
@@ -857,11 +884,11 @@ Within cells interlinked.
 (65.2 - 66.6)
 --------------------------------*/
 
-.p39.on{
+.p39.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -871,16 +898,16 @@ Why don't you say that three times: "within cells interlinked"
 (66.6 - 69.1)
 --------------------------------*/
 
-.p40{
+.p40 {
 	position: absolute;
 	left: -10em;
-	top: 8rem;
+	top: 7rem;
 	font-size: 3.5em;
 }
 
-.p40.on{
+.p40.on {
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	width: 55%;
 	transition: transform 600ms ease-in 0s;
 }
@@ -891,11 +918,11 @@ Within cells interlinked.
 (69.1 - 70.6)
 --------------------------------*/
 
-.p41.on{
+.p41.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	left: 1.5em;
+	left: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -905,11 +932,11 @@ Within cells interlinked.
 (70.6 - 72.2)
 --------------------------------*/
 
-.p42.on{
+.p42.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 5.3rem;
 	color: white;
-	left: 1.5em;
+	left: 6.5rem;
 	font-size: 1.5em;
 }
 
@@ -919,11 +946,11 @@ Within cells interlinked.
 (72.2 - 74.2)
 --------------------------------*/
 
-.p43.on{
+.p43.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 3.2rem;
 	color: white;
-	left: 1.5em;
+	left: 9.5rem;
 	font-size: 1.5em;
 }
 
@@ -933,11 +960,11 @@ We're done.
 (77.1 - 78.7)
 --------------------------------*/
 
-.p44.on{
+.p44.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -947,11 +974,11 @@ Constant K.
 (80 - 81.738)
 --------------------------------*/
 
-.p45.on{
+.p45.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -961,11 +988,11 @@ You can pick up your bonus.
 (82.2 - 84.3)
 --------------------------------*/
 
-.p46.on{
+.p46.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
 
@@ -975,13 +1002,429 @@ Thank you, sir.
 (85.4 - 87)
 --------------------------------*/
 
-.p47.on{
+.p47.on {
 	position: absolute;
-	bottom: 0;
+	bottom: 1rem;
 	color: white;
-	right: 1.5em;
+	right: 3.5rem;
 	font-size: 1.5em;
 }
+
+/* --------------------------------
+Tweede gedeelte Tekst
+--------------------------------*/
+
+.p48 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+
+.p48.on {
+	color: white;
+	left: 3.5rem;
+	width: 55%;
+	transition: transform 600ms ease-in 0s;
+}
+
+
+.p49.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	left: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p50 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p50.on {
+	color: white;
+	left: 3.5rem;
+	width: 45%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p51 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p51.on {
+	color: white;
+	left: 3.5rem;
+	width: 45%;
+	transition: transform 600ms ease-in 0s;
+}
+
+
+.p52.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	left: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p53 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p53.on {
+	color: white;
+	left: 3.5rem;
+	width: 35%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p54 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p54.on {
+	color: white;
+	left: 3.5rem;
+	width: 35%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p55.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	left: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p56 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p56.on {
+	color: white;
+	left: 3.5rem;
+	width: 35%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p57.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	left: 3.5rem;
+	font-size: 1.5em;
+}
+
+
+.p58 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p58.on {
+	color: white;
+	left: 3.5rem;
+	width: 35%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p59 {
+	position: absolute;
+	left: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p59.on {
+	color: white;
+	left: 3.5rem;
+	width: 35%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p60.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	left: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p61 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p61.on {
+	color: white;
+	right: 3.5rem;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p62.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p63 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p63.on {
+	color: white;
+	right: 3.5rem;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p64.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+
+.p65 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p65.on {
+	color: white;
+	right: -5.5rem;
+	width: 40%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p66 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p66.on {
+	color: white;
+	right: 3.5rem;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p67.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p68 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p68.on {
+	color: white;
+	right: -3.5rem;
+	width: 40%;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p69 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p69.on {
+	color: white;
+	right: 3.5rem;
+	transition: transform 600ms ease-in 0s;
+}
+
+
+.p70.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p71 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p71.on {
+	color: white;
+	right: 3.5rem;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p72.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p73 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p73.on {
+	color: white;
+	right: 3.5rem;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p74.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p75 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p75.on {
+	color: white;
+	right: 3.5rem;
+	text-shadow: #16161D 1px 1px 4px;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p76.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p77 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p77.on {
+	color: white;
+	right: 3.5rem;
+	text-shadow: #16161D 1px 1px 4px;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p78.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p79 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p79.on {
+	color: white;
+	right: 3.5rem;
+	text-shadow: #16161D 1px 1px 4px;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p80.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p81 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p81.on {
+	color: white;
+	right: 3.5rem;
+	text-shadow: #16161D 1px 1px 4px;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p82.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p83 {
+	position: absolute;
+	right: -10em;
+	top: 8rem;
+	font-size: 2em;
+}
+.p83.on {
+	color: white;
+	right: 0.5rem;
+	width: 35%;
+	text-shadow: #16161D 1px 1px 4px;
+	transition: transform 600ms ease-in 0s;
+}
+
+.p84.on {
+	position: absolute;
+	bottom: 1rem;
+	color: white;
+	right: 3.5rem;
+	font-size: 1.5em;
+}
+
+.p85.on {
+	position: absolute;
+	top: 8rem;
+	color: white;
+	right: 0.5rem;
+	font-size: 2em;
+	width: 30%;
+}
+
 
 /*--------------------------------
  Sound
@@ -1008,10 +1451,12 @@ Sounds.
 	animation-name: SoundAlarm2;
 	animation-duration: 1s;
 }
-.sound4 #video-container {
+
+.sound3 #video-container {
 	animation-name: SoundAlarm3;
 	animation-duration: 1s;
 }
+
 .sound6 #video-container {
 	animation-name: SoundAlarm4;
 	animation-duration: 1s;
@@ -1026,14 +1471,332 @@ Sounds.
 	box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.7);
 	transition: 1s linear;
 	animation-name: intensZoom;
-	animation-duration: 44s;
+	animation-duration: 43s;
 }
-.SoundContainer1{
-	transform: rotate(-2deg);
-}
-.soundWave{
+
+
+
+.sound0 .car1 {
 	position: absolute;
-	width: 100%;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) 3px 3px,
+		rgba(27, 193, 208, 0.2) 5px 5px,
+		rgba(27, 193, 208, 0.1) 7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 4rem;
+	left: -10rem;
+	animation: MovingCar1ToRight 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes MovingCar1ToRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(150rem);
+	}
+}
+
+.sound0 .car2 {
+	position: absolute;
+	background-color: rgb(14, 209, 226);
+	box-shadow: rgba(14, 209, 226, 0.4) -1px 1px,
+		rgba(14, 209, 226, 0.3) 3px 3px,
+		rgba(14, 209, 226, 0.2) 5px 5px,
+		rgba(14, 209, 226, 0.1) 7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 8rem;
+	left: -10rem;
+	animation: MovingCar2ToRight 5s linear infinite;
+	animation-delay: 3s;
+}
+
+@keyframes MovingCar2ToRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	50% {
+		transform: translateX(150rem);
+	}
+
+	100% {
+		transform: translateX(150rem);
+	}
+}
+
+.sound0 .car3 {
+	position: absolute;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) -3px 3px,
+		rgba(27, 193, 208, 0.2) -5px 5px,
+		rgba(27, 193, 208, 0.1) -7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 6.5rem;
+	left: 110rem;
+	animation: MovingCar3ToLeft 1.5s linear infinite;
+	animation-delay: 0s;
+}
+
+@keyframes MovingCar3ToLeft {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-150rem);
+	}
+}
+
+
+.sound0 .car4 {
+	position: absolute;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) -3px 3px,
+		rgba(27, 193, 208, 0.2) -5px 5px,
+		rgba(27, 193, 208, 0.1) -7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 5.5rem;
+	left: 110rem;
+	animation: MovingCar4ToLeft 2s linear infinite;
+	animation-delay: 0s;
+}
+
+@keyframes MovingCar4ToLeft {
+	0% {
+		transform: translateX(0);
+	}
+
+	80% {
+		transform: translateX(-150rem);
+	}
+
+	100% {
+		transform: translateX(-150rem);
+	}
+}
+
+.sound0 .car5 {
+	position: absolute;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) -3px 3px,
+		rgba(27, 193, 208, 0.2) -5px 5px,
+		rgba(27, 193, 208, 0.1) -7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 1.8rem;
+	left: 110rem;
+	animation: MovingCar5ToLeft 2.6s linear infinite;
+	animation-delay: 0s;
+}
+
+@keyframes MovingCar5ToLeft {
+	0% {
+		transform: translateX(0);
+	}
+
+	80% {
+		transform: translateX(-150rem);
+	}
+
+	100% {
+		transform: translateX(-150rem);
+	}
+}
+
+
+
+
+.sound0 .car6 {
+	position: absolute;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) -3px 3px,
+		rgba(27, 193, 208, 0.2) -5px 5px,
+		rgba(27, 193, 208, 0.1) -7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 55rem;
+	left: 110rem;
+	animation: MovingCar6ToRight 2s linear infinite;
+	animation-delay: 1s;
+}
+
+@keyframes MovingCar6ToRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(-150rem);
+	}
+}
+
+.sound0 .car7 {
+	position: absolute;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) -3px 3px,
+		rgba(27, 193, 208, 0.2) -5px 5px,
+		rgba(27, 193, 208, 0.1) -7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 59rem;
+	left: 110rem;
+	animation: MovingCar7ToRight 5s linear infinite;
+	animation-delay: 3s;
+}
+
+@keyframes MovingCar7ToRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	50% {
+		transform: translateX(-150rem);
+	}
+
+	100% {
+		transform: translateX(-150rem);
+	}
+}
+
+.sound0 .car8 {
+	position: absolute;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) 3px 3px,
+		rgba(27, 193, 208, 0.2) 5px 5px,
+		rgba(27, 193, 208, 0.1) 7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 57.5rem;
+	left: -10rem;
+	animation: MovingCar8ToLeft 1.5s linear infinite;
+	animation-delay: 0s;
+}
+
+@keyframes MovingCar8ToLeft {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX(150rem);
+	}
+}
+
+
+.sound0 .car9 {
+	position: absolute;
+	background-color: rgb(26, 157, 169);
+	box-shadow: rgba(26, 157, 169, 0.4) -1px 1px,
+		rgba(26, 157, 169, 0.3) 3px 3px,
+		rgba(26, 157, 169, 0.2) 5px 5px,
+		rgba(26, 157, 169, 0.1) 7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 56.5rem;
+	left: -10rem;
+	animation: MovingCar9ToLeft 2s linear infinite;
+	animation-delay: 0s;
+}
+
+@keyframes MovingCar9ToLeft {
+	0% {
+		transform: translateX(0);
+	}
+
+	80% {
+		transform: translateX(150rem);
+	}
+
+	100% {
+		transform: translateX(150rem);
+	}
+}
+
+.sound0 .car10 {
+	position: absolute;
+	background-color: rgb(27, 193, 208);
+	box-shadow: rgba(27, 193, 208, 0.4) -1px 1px,
+		rgba(27, 193, 208, 0.3) 3px 3px,
+		rgba(27, 193, 208, 0.2) 5px 5px,
+		rgba(27, 193, 208, 0.1) 7px 7px;
+	width: 3rem;
+	height: 0.1rem;
+	top: 52.8rem;
+	left: -10rem;
+	animation: MovingCar10ToRight 2.6s linear infinite;
+	animation-delay: 0.3s;
+}
+
+@keyframes MovingCar10ToRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	80% {
+		transform: translateX(150rem);
+	}
+
+	100% {
+		transform: translateX(150rem);
+	}
+}
+
+.sound4 .car1,
+.sound4 .car2,
+.sound4 .car3,
+.sound4 .car4,
+.sound4 .car5,
+.sound4 .car6,
+.sound4 .car7,
+.sound4 .car8,
+.sound4 .car9,
+.sound4 .car10 {
+	display: none;
+}
+
+
+.SoundContainer1,
+.SoundContainer2,
+.SoundContainer3,
+.SoundContainer4,
+.SoundContainer5,
+.SoundContainer6,
+.SoundContainer7,
+.SoundContainer8,
+.SoundContainer9,
+.SoundContainer10,
+.SoundContainer11,
+.SoundContainer12,
+.SoundContainer13 {
+	z-index: -10;
+}
+
+.SoundContainer1 {
+	transform: rotate(-2deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound5 .SoundContainer1 {
+	opacity: 1;
+}
+
+.soundWave {
+	position: absolute;
 	height: 10rem;
 	top: 2rem;
 	left: 0;
@@ -1045,35 +1808,41 @@ Sounds.
 	animation: movingLine 500ms linear infinite;
 }
 
-.soundWave svg{
+.soundWave svg {
 	fill: none;
 	width: 200%;
 	transform: scale(1, 0.1);
 }
 
 
-.sound5 .soundWave svg{
+.sound5 .soundWave svg {
 	transform: scale(1, 1.5);
 	fill: #30273c;
 	transition: 65s ease-in;
 }
 
-.sound10 .soundWave svg{
+.sound17 .soundWave svg {
 	fill: none;
 }
 
-.container{
+.container {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 }
 
- .SoundContainer2{
+.SoundContainer2 {
 	transform: rotate(-30deg);
+	transition: 1s linear;
+	opacity: 0;
 }
 
-.soundWave2{
+.sound7 .SoundContainer2 {
+	opacity: 1;
+}
+
+.soundWave2 {
 	position: absolute;
 	width: 100%;
 	height: 10rem;
@@ -1087,30 +1856,36 @@ Sounds.
 	animation-delay: 100ms;
 }
 
-.soundWave2 svg{
+.soundWave2 svg {
 	fill: none;
 	width: 200%;
 	transform: scale(1, 0.1);
 }
 
 
-.sound7 .soundWave2 svg{
+.sound7 .soundWave2 svg {
 	transform: scale(1, 1.5);
 	fill: #564171;
 	transition: 65s ease-in;
 }
 
-.sound10 .soundWave2 svg{
+.sound17 .soundWave2 svg {
 	fill: none;
 	transition: 1s ease-in;
 }
 
 
-.SoundContainer3{
+.SoundContainer3 {
 	transform: rotate(44deg);
+	transition: 1s linear;
+	opacity: 0;
 }
 
-.soundWave3{
+.sound5 .SoundContainer3 {
+	opacity: 1;
+}
+
+.soundWave3 {
 	position: absolute;
 	width: 100%;
 	height: 10rem;
@@ -1124,30 +1899,35 @@ Sounds.
 	animation-delay: 200ms;
 }
 
-.soundWave3 svg{
+.soundWave3 svg {
 	fill: none;
 	width: 200%;
 	transform: scale(1, 0.1);
 }
 
 
-.sound5 .soundWave3 svg{
+.sound5 .soundWave3 svg {
 	transform: scale(1, 1.5);
 	fill: #8765b4;
 	transition: 65s ease-in;
 }
 
-.sound10 .soundWave3 svg{
+.sound17 .soundWave3 svg {
 	fill: none;
 	transition: 1s ease-in;
 }
 
-.SoundContainer4{
+.SoundContainer4 {
 	transform: rotate(92deg);
-
+	transition: 1s linear;
+	opacity: 0;
 }
 
-.soundWave4{
+.sound6 .SoundContainer4 {
+	opacity: 1;
+}
+
+.soundWave4 {
 	position: absolute;
 	width: 100%;
 	height: 10rem;
@@ -1161,30 +1941,35 @@ Sounds.
 	animation-delay: 300ms;
 }
 
-.soundWave4 svg{
+.soundWave4 svg {
 	fill: none;
 	width: 200%;
 	transform: scale(1, 0.1);
 }
 
 
-.sound6 .soundWave4 svg{
+.sound6 .soundWave4 svg {
 	transform: scale(1, 1.5);
 	fill: #8765b4;
 	transition: 65s ease-in;
 }
 
-.sound10 .soundWave4 svg{
+.sound17 .soundWave4 svg {
 	fill: none;
 	transition: 1s ease-in;
 }
 
-.SoundContainer5{
+.SoundContainer5 {
 	transform: rotate(30deg);
-
+	transition: 1s linear;
+	opacity: 0;
 }
 
-.soundWave5{
+.sound8 .SoundContainer5 {
+	opacity: 1;
+}
+
+.soundWave5 {
 	position: absolute;
 	width: 100%;
 	height: 10rem;
@@ -1198,31 +1983,36 @@ Sounds.
 	animation-delay: 300ms;
 }
 
-.soundWave5 svg{
+.soundWave5 svg {
 	fill: none;
 	width: 200%;
 	transform: scale(1, 0.1);
 }
 
 
-.sound8 .soundWave5 svg{
+.sound8 .soundWave5 svg {
 	transform: scale(1, 1.5);
 	fill: #a984da;
 	transition: 65s ease-in;
 }
 
-.sound10 .soundWave5 svg{
+.sound17 .soundWave5 svg {
 	fill: none;
 	transition: 1s ease-in;
 }
 
 
-.SoundContainer6{
+.SoundContainer6 {
 	transform: rotate(183deg);
-
+	transition: 1s linear;
+	opacity: 0;
 }
 
-.soundWave6{
+.sound7 .SoundContainer6 {
+	opacity: 1;
+}
+
+.soundWave6 {
 	position: absolute;
 	width: 100%;
 	height: 10rem;
@@ -1236,31 +2026,36 @@ Sounds.
 	animation-delay: 300ms;
 }
 
-.soundWave6 svg{
+.soundWave6 svg {
 	fill: none;
 	width: 200%;
 	transform: scale(1, 0.1);
 }
 
 
-.sound7 .soundWave6 svg{
+.sound7 .soundWave6 svg {
 	transform: scale(1, 1.5);
 	fill: #a984da;
 	transition: 65s ease-in;
 }
 
-.sound10 .soundWave6 svg{
+.sound17 .soundWave6 svg {
 	fill: none;
 	transition: 1s ease-in;
 }
 
 
-.SoundContainer7{
+.SoundContainer7 {
 	transform: rotate(174deg);
-
+	transition: 1s linear;
+	opacity: 0;
 }
 
-.soundWave7{
+.sound6 .SoundContainer7 {
+	opacity: 1;
+}
+
+.soundWave7 {
 	position: absolute;
 	width: 100%;
 	height: 10rem;
@@ -1274,23 +2069,404 @@ Sounds.
 	animation-delay: 300ms;
 }
 
-.soundWave7 svg{
+.soundWave7 svg {
 	fill: none;
 	width: 200%;
 	transform: scale(1, 0.1);
 }
 
 
-.sound6 .soundWave7 svg{
+.sound6 .soundWave7 svg {
 	transform: scale(1, 1.5);
 	fill: #5e4b77;
 	transition: 65s ease-in;
 }
 
-.sound10 .soundWave7 svg{
+.sound17 .soundWave7 svg {
 	fill: none;
 	transition: 1s ease-in;
 }
+
+
+
+
+
+
+
+.SoundContainer8 {
+	transform: rotate(340deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound8 .SoundContainer8 {
+	opacity: 1;
+}
+
+.soundWave8 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: -50rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 500ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave8 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound8 .soundWave8 svg {
+	transform: scale(1, 1.5);
+	fill: #ae8cda;
+	transition: 43s ease-in;
+}
+
+.sound17 .soundWave8 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
+
+
+
+
+
+
+
+
+.SoundContainer9 {
+	transform: rotate(-110deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound9 .SoundContainer9 {
+	opacity: 1;
+}
+
+.soundWave9 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 500ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave9 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound9 .soundWave9 svg {
+	transform: scale(1, 1.5);
+	fill: #796198;
+	transition: 43s ease-in;
+}
+
+.sound17 .soundWave9 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
+
+
+
+
+
+.SoundContainer10 {
+	transform: rotate(160deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound10 .SoundContainer10 {
+	opacity: 1;
+}
+
+.soundWave10 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 500ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave10 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound10 .soundWave10 svg {
+	transform: scale(1, 1.5);
+	fill: #ab84de;
+	transition: 35s ease-in;
+}
+
+.sound17 .soundWave10 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
+
+
+
+
+.SoundContainer11 {
+	transform: rotate(190deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound12 .SoundContainer11 {
+	opacity: 1;
+}
+
+.soundWave11 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: 60rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 300ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave11 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound12 .soundWave11 svg {
+	transform: scale(1, 1.5);
+	fill: #deccf7;
+	transition: 5s ease-in;
+}
+
+.sound17 .soundWave11 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
+
+
+
+
+
+.SoundContainer12 {
+	transform: rotate(100deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound12 .SoundContainer12 {
+	opacity: 1;
+}
+
+.soundWave12 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: 50rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 300ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave12 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound12 .soundWave12 svg {
+	transform: scale(1, 1.5);
+	fill: #deccf7;
+	transition: 5s ease-in;
+}
+
+.sound17 .soundWave12 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
+
+
+
+
+
+.SoundContainer13 {
+	transform: rotate(110deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound12 .SoundContainer13 {
+	opacity: 1;
+}
+
+.soundWave13 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: -50rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 300ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave13 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound12 .soundWave13 svg {
+	transform: scale(1, 1.5);
+	fill: #cdb8ea;
+	transition: 5s ease-in;
+}
+
+.sound17 .soundWave13 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
+
+
+
+
+
+
+.SoundContainer14 {
+	transform: rotate(80deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound12 .SoundContainer14 {
+	opacity: 1;
+}
+
+.soundWave14 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: -10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 300ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave14 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound12 .soundWave14 svg {
+	transform: scale(1, 1.5);
+	fill: #cdb8ea;
+	transition: 5s ease-in;
+}
+
+.sound17 .soundWave14 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
+
+
+
+
+
+.SoundContainer15 {
+	transform: rotate(-75deg);
+	transition: 1s linear;
+	opacity: 0;
+}
+
+.sound12 .SoundContainer15 {
+	opacity: 1;
+}
+
+.soundWave15 {
+	position: absolute;
+	width: 100%;
+	height: 10rem;
+	left: 0rem;
+	bottom: -40rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	animation: movingLine 300ms linear infinite;
+	animation-delay: 300ms;
+}
+
+.soundWave15 svg {
+	fill: none;
+	width: 200%;
+	transform: scale(1, 0.1);
+}
+
+
+.sound12 .soundWave15 svg {
+	transform: scale(1, 1.5);
+	fill: #9e7ecb;
+	transition: 5s ease-in;
+}
+
+.sound17 .soundWave15 svg {
+	fill: none;
+	transition: 1s ease-in;
+}
+
 
 /* 
 @keyframes movingLineState1{
@@ -1302,110 +2478,579 @@ Sounds.
 	}
 } */
 
-@keyframes movingLine{
-	0%{
+@keyframes movingLine {
+	0% {
 		transform: translateX(-1px);
 	}
-	100%{
+
+	100% {
 		transform: translateX(-98.5px);
 	}
-} 
+}
 
-.Blackout{
+.Blackout {
 	position: absolute;
 	z-index: 10;
 }
 
-.sound11 .Blackout{
-
+.sound18 .Blackout {
 	animation-name: Blackout;
 	animation-duration: 1s;
 	transition: 700ms ease-in;
+}
+
+.sound18 #video-container {
+	box-shadow: 0px 0px 15px 0px var(--BorderboxShadowPartTwo);
+}
+
+.sound19 #video-container {
+	animation-name: TensGlow;
+	animation-duration: 42s;
+}
+
+.sound23 #video-container{
+	box-shadow: 0px 0px 15px 0px #d52a43;
+}
+.sound24 #video-container{
+	animation: FrameFalles 2s linear;
+}
+
+@keyframes FrameFalles{
+	0%{
+		transform: rotate(0deg) translateY(0rem);
+	}
+	5%{
+		transform: rotate(1deg) translateY(0rem);
+	}
+	15%{
+		transform: rotate(-1deg) translateY(0rem);
+	}
+	20%{
+		transform: rotate(1deg) translateY(0rem);
+	}
+	25%{
+		transform: rotate(-1deg) translateY(0rem);
+	}
+	30%{
+		transform: rotate(1deg) translateY(0rem);
+	}
+	35%{
+		transform: rotate(-1deg) translateY(0rem);
+	}
+	40%{
+		transform: rotate(1deg) translateY(0rem);
+	}
+	45%{
+		transform: rotate(-1deg) translateY(0rem);
+	}
+	100%{
+		transform: rotate(0deg) translateY(60rem);
+	}
+}
+
+.WaveSecondPart1 svg,
+.WaveSecondPart2 svg,
+.WaveSecondPart3 svg,
+.WaveSecondPart4 svg,
+.WaveSecondPart5 svg,
+.WaveSecondPart6 svg,
+.WaveSecondPart7 svg,
+.WaveSecondPart8 svg {
+	display: none;
+}
+
+.WaveSecondPartContainer {
+	transform: translateY(60rem);
+}
+
+.sound18 .WaveSecondPart1 svg,
+.sound18 .WaveSecondPart2 svg,
+.sound18 .WaveSecondPart3 svg,
+.sound18 .WaveSecondPart4 svg,
+.sound18 .WaveSecondPart5 svg,
+.sound18 .WaveSecondPart6 svg,
+.sound18 .WaveSecondPart7 svg,
+.sound18 .WaveSecondPart8 svg {
+	display: block;
+
+}
+
+.sound18 .WaveSecondPartContainer {
+	transform: translateY(40rem);
+	transition: 2s linear;
+}
+
+.sound19 .WaveSecondPartContainer {
+	transform: translateY(1rem);
+	transition: 38s linear;
+}
+
+
+.WaveSecondPartContainer,
+.WaveSecondPart1,
+.WaveSecondPart2,
+.WaveSecondPart3,
+.WaveSecondPart4,
+.WaveSecondPart5,
+.WaveSecondPart6,
+.WaveSecondPart7,
+.WaveSecondPart8 {
+	position: absolute;
+}
+
+.sound23 .WaveSecondPartContainer {
+	transform: translateY(60rem);
+	transition: 2s linear;
+}
+
+.WaveSecondPart1 svg {
+	position: absolute;
+	top: 4rem;
+	left: 0;
+	width: 200rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -100;
+	animation: WaveSecondPartWaving 8s infinite linear;
+}
+
+.WaveSecondPart2 svg {
+	position: absolute;
+	top: 10rem;
+	left: -20rem;
+	width: 220rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -101;
+	animation: WaveSecondPartWaving 4.5s infinite linear;
+}
+
+.WaveSecondPart3 svg {
+	position: absolute;
+	top: 22rem;
+	left: 0rem;
+	width: 200rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -101;
+	animation: WaveSecondPartWaving 5.5s infinite linear;
+}
+
+.WaveSecondPart4 svg {
+	position: absolute;
+	top: 29rem;
+	left: 0rem;
+	width: 200rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -101;
+	animation: WaveSecondPartWaving 6s infinite linear;
+}
+
+.WaveSecondPart5 svg {
+	position: absolute;
+	top: 36rem;
+	left: 0rem;
+	width: 200rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -101;
+	animation: WaveSecondPartWaving 4.8s infinite linear;
+}
+
+.WaveSecondPart6 svg {
+	position: absolute;
+	top: 46rem;
+	left: 0rem;
+	width: 200rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -101;
+	animation: WaveSecondPartWaving 5.2s infinite linear;
+}
+
+.WaveSecondPart7 svg {
+	position: absolute;
+	top: 50rem;
+	left: 0rem;
+	width: 200rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -101;
+	animation: WaveSecondPartWaving 4.2s infinite linear;
+}
+
+.WaveSecondPart8 svg {
+	position: absolute;
+	top: 57rem;
+	left: 0rem;
+	width: 200rem;
+	fill: #ae8cda;
+	opacity: 0.1;
+	z-index: -101;
+	animation: WaveSecondPartWaving 4.7s infinite linear;
+}
+
+@keyframes WaveSecondPartWaving {
+	0% {
+		transform: translateX(0px);
+	}
+
+	50% {
+		transform: translateX(-88rem);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.Animation,
+.starContainer,
+.starAnimation {
+	position: absolute;
+}
+
+.starAnimation svg {
+	position: absolute;
+	fill: none;
+}
+
+/* .starContainer {
+	transform: translate(99rem, -10rem);
+} */
+.starContainer, .starContainer2{
+	transform: translateY(2rem) translateX(4rem);
+	position: absolute;
+}
+
+.starContainer3, .starContainer4{
+	transform: translateY(4rem) translateX(7rem);
+	position: absolute;
+}
+
+.starContainer5, .starContainer6{
+	transform: translateY(4rem) translateX(95rem);
+	position: absolute;
+}
+.starContainer7, .starContainer8{
+	transform: translateY(1.5rem) translateX(85rem);
+	position: absolute;
+}
+
+.sound23 .starContainer, .sound23 .starContainer2, .sound23 .starContainer3, .sound23 .starContainer4, .sound23 .starContainer5, .sound23 .starContainer6, .sound23 .starContainer7, .sound23 .starContainer8{
+	transform: translateY(80rem);
+	transition: 2s linear;
+}
+/* .sound18 .starContainer {
+	transform: translate(99rem, 2rem);
+	animation: StarMoving 9s infinite linear;
+	animation-delay: 1s;
+	transform-origin: 2.5rem 2.5rem;
+	transition: 1s linear;
+} */
+
+/* .starContainer2 {
+	transform: translate(99rem, -10rem);
+} */
+
+/* .sound19 .starContainer2 {
+	transform: translate(99rem, 2rem);
+	animation: StarMoving 8s infinite linear;
+	animation-delay: 1s;
+	transform-origin: 2.5rem 2.5rem;
+	transition: 1s linear;
+} */
+
+@keyframes StarMoving {
+	0% {
+		transform: translate(99rem, 2rem);
+	}
+
+	14.29% {
+		transform: translate(97rem, 50rem);
+	}
+
+	28.58% {
+		transform: translate(57rem, 60rem);
+	}
+
+	42.87% {
+		transform: translate(2rem, 55rem);
+	}
+
+	57.16% {
+		transform: translate(8rem, 30rem);
+	}
+
+	71.45% {
+		transform: translate(-2rem, 5rem);
+	}
+
+	85.74% {
+		transform: translate(57rem, 5rem);
+	}
+
+	100% {
+		transform: translate(99rem, 2rem);
+	}
+}
+
+.sound18 .starAnimation {
+	animation: StarRotate 2s infinite linear;
+	transform-origin: 0.5rem 0.5rem;
+}
+.sound18 .starAnimation3 {
+	animation: StarRotate 2s infinite linear;
+	transform-origin: 0.35rem 0.35rem;
+}
+ .sound18 .starAnimation5  {
+	animation: StarRotate 2s infinite linear;
+	transform-origin: 0.45rem 0.45rem;
+}
+
+.sound18 .starAnimation7  {
+	animation: StarRotate 2s infinite linear;
+	transform-origin: 0.3rem 0.3rem;
+}
+
+.sound18 .starAnimation2 {
+	animation: StarRotate 2.2s infinite linear;
+	transform-origin: 0.5rem 0.5rem;
+	animation-direction: reverse;
+}
+.sound18 .starAnimation4 {
+	animation: StarRotate 2.2s infinite linear;
+	transform-origin: 0.35rem 0.35rem;
+	animation-direction: reverse;
+}
+
+.sound18 .starAnimation6  {
+	animation: StarRotate 2.2s infinite linear;
+	transform-origin: 0.45rem 0.45rem;
+	animation-direction: reverse;
+}
+.sound18 .starAnimation8  {
+	animation: StarRotate 2.2s infinite linear;
+	transform-origin: 0.3rem 0.3rem;
+	animation-direction: reverse;
+}
+
+@keyframes StarRotate {
+	0% {
+		transform: rotate(1deg) scale(1);
+	}
+
+	50% {
+		transform: rotate(169deg) scale(0.5);
+	}
+
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
+}
+
+.sound18 .starAnimation svg, .sound18 .starAnimation2 svg {
+	position: absolute;
+	fill: var(--BorderboxShadowPartTwo);
+	width: 1rem;
+	filter: drop-shadow(0px 0px 5px var(--BorderboxShadowPartTwo));
+	animation: StarBlink 500ms infinite ease;
+}
+
+.sound18 .starAnimation3 svg, .sound18 .starAnimation4 svg {
+	position: absolute;
+	fill: var(--BorderboxShadowPartTwo);
+	width: 0.7rem;
+	filter: drop-shadow(0px 0px 5px var(--BorderboxShadowPartTwo));
+	animation: StarBlink 600ms infinite ease;
+}
+
+.sound18 .starAnimation5 svg, .sound18 .starAnimation6 svg {
+	position: absolute;
+	fill: var(--BorderboxShadowPartTwo);
+	width: 0.9rem;
+	filter: drop-shadow(0px 0px 5px var(--BorderboxShadowPartTwo));
+	animation: StarBlink 600ms infinite ease;
+}
+
+.sound18 .starAnimation7 svg, .sound18 .starAnimation8 svg {
+	position: absolute;
+	fill: var(--BorderboxShadowPartTwo);
+	width: 0.6rem;
+	filter: drop-shadow(0px 0px 5px var(--BorderboxShadowPartTwo));
+	animation: StarBlink 600ms infinite ease;
+}
+
+@keyframes StarBlink {
+	0% {
+		filter: drop-shadow(0px 0px 5px var(--BorderboxShadowPartTwo));
+	}
+
+	50% {
+		filter: drop-shadow(0px 0px 15px var(--BorderboxShadowPartTwo));
+	}
+
+	100% {
+		filter: drop-shadow(0px 0px 5px var(--BorderboxShadowPartTwo));
+	}
 }
 
 /*--------------------------------
  Animaties
 --------------------------------*/
 
-@keyframes SoundAlarm1{
-	0%{
+
+
+@keyframes SoundAlarm1 {
+	0% {
 		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1) rotate(0);
 	}
-	50%{
-		box-shadow: 0px 0px 50px 0px rgba(255, 208, 0, 0.7);
+
+	25% {
+		box-shadow: 0px 0px 55px 0px rgba(255, 208, 0, 0.7);
+		transform: scale(1.005) rotate(0.5deg);
 	}
-	100%{
+
+	37.5% {
+		box-shadow: 0px 0px 75px 0px rgba(255, 208, 0, 0.7);
+		transform: scale(1.01) rotate(-0.5deg);
+	}
+
+	50% {
+		box-shadow: 0px 0px 100px 0px rgba(255, 208, 0, 0.7);
+		transform: scale(1.01) rotate(0.5deg);
+	}
+
+	62.5% {
+		box-shadow: 0px 0px 75px 0px rgba(255, 208, 0, 0.7);
+		transform: scale(1.01) rotate(-0.5deg);
+	}
+
+	75% {
+		box-shadow: 0px 0px 55px 0px rgba(255, 208, 0, 0.7);
+		transform: scale(1.005) rotate(0.5deg);
+	}
+
+	100% {
 		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1) rotate(0);
 	}
 }
 
-@keyframes SoundAlarm2{
-	0%{
+@keyframes SoundAlarm2 {
+	0% {
 		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1, 1) rotate(0);
 	}
-	50%{
+
+	50% {
 		box-shadow: 0px 0px 100px 0px rgba(255, 153, 0, 0.7);
+		transform: scale(1, 1.1) rotate(0);
 	}
-	100%{
+
+	100% {
 		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1, 1) rotate(0);
 	}
 }
 
-@keyframes SoundAlarm3{
-	0%{
+@keyframes SoundAlarm3 {
+	0% {
 		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
-	}
-	50%{
-		box-shadow: 0px 0px 150px 0px rgba(255, 77, 0, 0.7);
-	}
-	100%{
-		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
-	}
-}
-
-@keyframes SoundAlarm4{
-	0%{
-		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
-	}
-	50%{
-		box-shadow: 0px 0px 150px 0px rgba(255, 0, 0, 0.7);
-	}
-	100%{
-		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
-	}
-}
-
-@keyframes SoundAlarm5{
-	0%{
-		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
-	}
-	50%{
-		box-shadow: 0px 0px 250px 0px rgba(255, 0, 183, 0.7);
-	}
-	100%{
-		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
-	}
-}
-@keyframes intensZoom{
-	0%{
 		transform: scale(1);
 	}
-	99%{
+
+	50% {
+		box-shadow: 0px 0px 50px 0px rgba(255, 140, 0, 0.7), rgba(255, 77, 0, 0.7) 0px 0px 150px 0px;
+		transform: scale(1.05);
+	}
+
+	100% {
+		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1);
+	}
+}
+
+@keyframes SoundAlarm4 {
+	0% {
+		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1);
+	}
+
+	25% {
+		box-shadow: 0px 0px 85px 0px rgba(255, 77, 0, 0.7), rgba(255, 0, 0, 0.7) 0px 0px 175px 0px;
+		transform: scale(1.06);
+	}
+
+	50% {
+		box-shadow: 0px 0px 85px 0px rgba(255, 77, 0, 0.7), rgba(255, 0, 0, 0.7) 0px 0px 175px 0px;
+		transform: scale(1.06);
+	}
+
+	75% {
+		box-shadow: 0px 0px 85px 0px rgba(255, 77, 0, 0.7), rgba(255, 0, 0, 0.7) 0px 0px 175px 0px;
+		transform: scale(1.06);
+	}
+
+	100% {
+		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1);
+	}
+}
+
+@keyframes SoundAlarm5 {
+	0% {
+		box-shadow: 0px 0px 15px 0px rgba(0, 234, 255, 0.7);
+		transform: scale(1, 1) rotate(0);
+	}
+
+	50% {
+		box-shadow: rgba(255, 0, 0, 0.7) 0px 0px 95px 0px, 0px 0px 175px 0px rgba(255, 0, 183, 0.7);
+		transform: scale(1, 1.1) rotate(0);
+	}
+
+	60% {
+		box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.7);
+		transform: scale(1, 1) rotate(0);
+	}
+
+	80% {
+		box-shadow: rgba(255, 0, 0, 0.7) 0px 0px 125px 0px, 0px 0px 250px 0px rgba(255, 0, 183, 0.7);
+		transform: scale(1, 1.1) rotate(0);
+	}
+
+	100% {
+		box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.7);
+		transform: scale(1, 1) rotate(0);
+	}
+}
+
+@keyframes intensZoom {
+	0% {
+		transform: scale(1);
+	}
+
+	99% {
 		transform: scale(1.2);
 	}
-	99.5%{
+
+	99.5% {
 		transform: scale(0.7);
 	}
-	100%{
+
+	100% {
 		transform: scale(1);
 	}
 }
 
-@keyframes Blackout{
-	0%{
+@keyframes Blackout {
+	0% {
 		display: none;
 	}
-	50%{
+
+	50% {
 		display: block;
 		position: absolute;
 		content: '';
@@ -1415,7 +3060,778 @@ Sounds.
 		right: 0;
 		background-color: #16161D;
 	}
-	100%{
+
+	100% {
 		display: none;
+	}
+}
+
+@keyframes TensGlow {
+	0% {
+		box-shadow: 0px 0px 15px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	1% {
+		box-shadow: 0px 0px 17px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	1.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	2% {
+		box-shadow: 0px 0px 12px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	2.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	3% {
+		box-shadow: 0px 0px 20px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	3.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	4% {
+		box-shadow: 0px 0px 18px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	4.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	5% {
+		box-shadow: 0px 0px 13px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	5.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	6% {
+		box-shadow: 0px 0px 21px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	6.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	7% {
+		box-shadow: 0px 0px 19px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	7.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	8% {
+		box-shadow: 0px 0px 14px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	8.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	9% {
+		box-shadow: 0px 0px 22px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	9.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	10% {
+		box-shadow: 0px 0px 20px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	10.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	11% {
+		box-shadow: 0px 0px 15px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	11.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	12% {
+		box-shadow: 0px 0px 23px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	12.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	13% {
+		box-shadow: 0px 0px 21px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	13.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	14% {
+		box-shadow: 0px 0px 16px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	14.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	15% {
+		box-shadow: 0px 0px 24px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	15.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	16% {
+		box-shadow: 0px 0px 22px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	16.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	17% {
+		box-shadow: 0px 0px 17px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	17.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	18% {
+		box-shadow: 0px 0px 25px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	18.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	19% {
+		box-shadow: 0px 0px 23px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	19.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	20% {
+		box-shadow: 0px 0px 18px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	20.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	21% {
+		box-shadow: 0px 0px 26px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	21.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	22% {
+		box-shadow: 0px 0px 24px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	22.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	23% {
+		box-shadow: 0px 0px 19px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	23.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	24% {
+		box-shadow: 0px 0px 27px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	24.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	25% {
+		box-shadow: 0px 0px 25px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	25.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	26% {
+		box-shadow: 0px 0px 20px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	26.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	27% {
+		box-shadow: 0px 0px 28px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	27.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	28% {
+		box-shadow: 0px 0px 26px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	28.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	29% {
+		box-shadow: 0px 0px 21px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	29.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	30% {
+		box-shadow: 0px 0px 29px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	30.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	31% {
+		box-shadow: 0px 0px 27px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	31.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	32% {
+		box-shadow: 0px 0px 22px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	32.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	33% {
+		box-shadow: 0px 0px 30px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	33.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	34% {
+		box-shadow: 0px 0px 28px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	34.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	35% {
+		box-shadow: 0px 0px 23px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	35.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	36% {
+		box-shadow: 0px 0px 31px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	36.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	37% {
+		box-shadow: 0px 0px 29px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	37.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	38% {
+		box-shadow: 0px 0px 24px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	38.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	39% {
+		box-shadow: 0px 0px 32px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	39.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	40% {
+		box-shadow: 0px 0px 30px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	40.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	41% {
+		box-shadow: 0px 0px 25px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	41.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	42% {
+		box-shadow: 0px 0px 33px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	42.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	43% {
+		box-shadow: 0px 0px 31px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	43.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	44% {
+		box-shadow: 0px 0px 26px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	44.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	45% {
+		box-shadow: 0px 0px 34px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	45.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	46% {
+		box-shadow: 0px 0px 32px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	46.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	47% {
+		box-shadow: 0px 0px 27px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	47.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	48% {
+		box-shadow: 0px 0px 35px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	48.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	49% {
+		box-shadow: 0px 0px 33px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	49.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	50% {
+		box-shadow: 0px 0px 28px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	50.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	51% {
+		box-shadow: 0px 0px 36px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	51.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	52% {
+		box-shadow: 0px 0px 34px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	52.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	53% {
+		box-shadow: 0px 0px 29px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	53.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	54% {
+		box-shadow: 0px 0px 37px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	54.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	55% {
+		box-shadow: 0px 0px 35px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	55.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	56% {
+		box-shadow: 0px 0px 30px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	56.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	57% {
+		box-shadow: 0px 0px 38px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	57.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	58% {
+		box-shadow: 0px 0px 36px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	58.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	59% {
+		box-shadow: 0px 0px 31px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	59.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	60% {
+		box-shadow: 0px 0px 39px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	60.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	61% {
+		box-shadow: 0px 0px 37px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	61.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	62% {
+		box-shadow: 0px 0px 32px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	62.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	63% {
+		box-shadow: 0px 0px 40px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	63.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	64% {
+		box-shadow: 0px 0px 38px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	64.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	65% {
+		box-shadow: 0px 0px 33px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	65.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	66% {
+		box-shadow: 0px 0px 41px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	66.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	67% {
+		box-shadow: 0px 0px 39px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	67.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	68% {
+		box-shadow: 0px 0px 34px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	68.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	69% {
+		box-shadow: 0px 0px 42px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	69.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	70% {
+		box-shadow: 0px 0px 40px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	70.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	71% {
+		box-shadow: 0px 0px 35px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	71.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	72% {
+		box-shadow: 0px 0px 43px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	72.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	73% {
+		box-shadow: 0px 0px 41px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	73.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	74% {
+		box-shadow: 0px 0px 36px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	74.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	75% {
+		box-shadow: 0px 0px 44px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	75.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	76% {
+		box-shadow: 0px 0px 42px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	76.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	77% {
+		box-shadow: 0px 0px 37px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	77.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	78% {
+		box-shadow: 0px 0px 45px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	78.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	79% {
+		box-shadow: 0px 0px 43px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	79.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	80% {
+		box-shadow: 0px 0px 38px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	80.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	81% {
+		box-shadow: 0px 0px 46px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	81.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	82% {
+		box-shadow: 0px 0px 44px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	82.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	83% {
+		box-shadow: 0px 0px 39px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	83.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	84% {
+		box-shadow: 0px 0px 47px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	84.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	85% {
+		box-shadow: 0px 0px 45px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	85.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	86% {
+		box-shadow: 0px 0px 40px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	86.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	87% {
+		box-shadow: 0px 0px 48px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	87.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	88% {
+		box-shadow: 0px 0px 46px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	88.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	89% {
+		box-shadow: 0px 0px 41px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	89.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	90% {
+		box-shadow: 0px 0px 49px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	90.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	91% {
+		box-shadow: 0px 0px 47px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	91.5% {
+		box-shadow: 0px 0px 10px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	92% {
+		box-shadow: 0px 0px 42px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	93% {
+		box-shadow: 0px 0px 50px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	94% {
+		box-shadow: 0px 0px 48px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	95% {
+		box-shadow: 0px 0px 43px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	96% {
+		box-shadow: 0px 0px 51px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	97% {
+		box-shadow: 0px 0px 49px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	98% {
+		box-shadow: 0px 0px 44px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	99% {
+		box-shadow: 0px 0px 52px 0px var(--BorderboxShadowPartTwo);
+	}
+
+	100% {
+		box-shadow: 0px 0px 15px 0px var(--BorderboxShadowPartTwo);
 	}
 }
