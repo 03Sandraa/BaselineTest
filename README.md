@@ -42,6 +42,11 @@ Rond 24 seconde in de video begint er een piepgeluid die gedurende het grootste 
 
 Tijdens het kijken naar de eerste baseline test kreeg ik een steeds groter wordend opdringerig overweldigend gevoel. Om dit gevoel over te brengen heb ik ervoor gekozen om het frame van de video gedurende de test geleidelijk groter te laten worden. Wanneer het geluid wegvalt met 75.5s verkleint het frame weer naar zijn oorspronkelijke formaat, doormiddel van een iets bouncende beweging. Ook heb ik met het formaat van de tekst van de ondervrager gespeeld, deze wordt gedurende de test steeds iets groter. Dit heb ik gedaan om de kijker een steeds iets overrompelender gevoel te geven.
 
+## Tweede fragment
+Het tweede fragment begint met een kort beeld van de aankomst op de basis van ongeveer 2 seconde, daarna wordt er meteen begonnen met de baseline test. Op de achtergrond speelt een spannend geluidje af die aanhoudt tot het moment dat K het antwoord heeft gegeven op de laatste vraag van de ondervrager, dat is op 130 seconden. Om dit gevoel van spanning over te brengen heb ik ervoor gekozen om golven weer te geven op de achtergrond. Dit zijn ander soort golven dan de irritante piepgolven uit het eerste fragment, deze golven zijn rustiger en meer op de achtergrond. De golven gaan heen en weer, en gedurende het tweede fragment gaat het iets sneller, om de spanning over te brengen.
+
+De tekst is op een andere manier vormgegeven dan in het eerste fragment. Dit komt omdat de tekst op een andere manier binnen komt dan in het eerste gedeelte. Ook wordt er veel tussen verschillende beelden gewisseld, waardoor de vormgeven van het eerste fragment rommelig over zou komen.
+
 ## Feedback
 ### Eerste feedback moment
 Feedback van het eerste feedback moment:
