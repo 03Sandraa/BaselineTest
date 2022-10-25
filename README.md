@@ -1,5 +1,7 @@
 <p style="text-align: center;"><img width="872" align="center" alt="Schermafbeelding 2022-10-25 om 14 17 02" src="https://user-images.githubusercontent.com/90039351/197770800-9065a451-6781-4142-8552-69dcd9bbe6e5.png"></p>
 
+------------------
+
 # BaselineTest
 Dit project bestaat uit videofragmenten van de baseline testen, uit de film Blade Runner 2049. Het geluid uit de fragmenten is visueel met behulp van HTML en CSS vormgegeven. Hierbij was het de bedoeling dat doven menden of mensen zonder geluid dezelfde beleving konden ervaren dan mensen die het geluid wel konden horen.
 
