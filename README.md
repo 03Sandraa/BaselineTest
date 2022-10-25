@@ -10,7 +10,8 @@ De video is opgedeeld in twee fragmenten:
 -	Het tweede fragment is de tweede baseline test uit de film en duurt van 87s tot 135s, in totaal 48 seconde.
 
 ## Sfeer
-Om een beter beeld te krijgen van waarover de film gaat heb ik allereerst de film gekeken. Hiervan kreeg ik verschillende ideeën en begon ik na te denken over de sfeer die ik allereerst neer wilde zetten. Ik heb gekozen om een cyberpunk achtige stijl te gebruiken. En voegde een titel toe aan de pagina. Deze titel heeft een streep in het midden en beide verdwijnen wanneer de video wordt gestart, doormiddel van een animatie. Voor de rest heeft het frame een color glow, dit is gebaseerd op neonlichten die goed binnen deze stijl passen. Om dit verder door te trekken heb ik ervoor gekozen om de muis te vervangen door een color dot.
+Om een beter beeld te krijgen van waarover de film gaat heb ik allereerst de film gekeken. Hiervan kreeg ik verschillende ideeën en begon ik na te denken over de sfeer die ik allereerst neer wilde zetten. Ik heb gekozen om een cyberpunk achtige stijl te gebruiken. En voegde een titel toe aan de pagina. Deze titel heeft een streep in het midden en beide verdwijnen wanneer de video wordt gestart, doormiddel van een animatie. Voor de rest heeft het frame een color glow, dit is gebaseerd op neonlichten die goed binnen deze stijl passen. Om dit verder door te trekken heb ik ervoor gekozen om de muis te vervangen door een color dot. Voor het lettertype heb ik gekozen voor het Brenner font en gebruik hier verschillende varianten van.
+
 
 ## Stemmen/Voices
 Er zijn 3 verschillende stemmen te horen. 
