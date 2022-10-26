@@ -40,6 +40,17 @@ Er zijn 3 verschillende stemmen te horen.
 ```font-style: Italic;```
 ```font-weight: 600;``` |
 
+## Principes
+### Exclusive design
+Met dit project heb ik me gericht op mensen die doof zijn en heb daardoor geen rekening gehouden met mensen met andere behoeftes. Ik heb geprobeerd om het geluid zo visueel mogelijk weer te geven zodat mensen zonder gehoor ook van de film kunnen genieten.
+#### Study Situation
+Allereerst heb ik de video bekeken zonder geluid, dit gaf een goede indruk hoe mensen die doof zijn de video zullen gaan ervaren. De video was op dat moment erg saai om naar te kijken. Dit kwam doordat er visueel niet veel gebeurd. Daar moest ik dus wat aan veranderen, ik moest dingen toe gaan voegen.
+#### Ignore Conventions
+
+#### Prioritise Identity
+
+#### Add Nonsense
+
 ## Eerste fragment 
 Het eerste fragment begint met dat K aankomt bij de basis van zijn werk. In het schip waarin hij alleen zit maakt hij contact met de basis. Tijdens dit fragment gaan er verschillende lichten buiten het frame heen en weer, deze stellen het overige luchtverkeer voor. Verder zijn verschillende alarmen te horen, ieder uniek op zichzelf staand. Voor deze Alarmen heb ik ervoor gekozen om een border glow toe te voegen die de intensiteit van het alarm geluid representeert. Ook beweegt het frame van de video, deze bewegingen is gebaseerd op het gevoel die ik bij elk soort alarm kreeg.
 
