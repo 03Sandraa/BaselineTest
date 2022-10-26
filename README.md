@@ -45,10 +45,10 @@ Er zijn 3 verschillende stemmen te horen.
 Met dit project heb ik me gericht op mensen die doof zijn en heb daardoor geen rekening gehouden met mensen met andere behoeftes. Ik heb geprobeerd om het geluid zo visueel mogelijk weer te geven zodat mensen zonder gehoor ook van de film kunnen genieten.
 #### Study Situation
 Allereerst heb ik de video bekeken zonder geluid, dit gaf een goede indruk hoe mensen die doof zijn de video zullen gaan ervaren. De video was op dat moment erg saai om naar te kijken. Dit kwam doordat er visueel niet veel gebeurd. Daar moest ik dus wat aan veranderen, ik moest dingen toe gaan voegen.
-#### Ignore Conventions
-
 #### Prioritise Identity
 Ik begon dit project met het zoeken naar een passende stijl. Ik kwam al snel op een cyberpunk achtige stijl, die indruk kreeg ik door de film te hebben bekeken. Vervolgens heb ik deze stijl doorgetrokken gedurende de gehele video. Met daarbij allerlei visuele elemtenten die de kijker af kunnen leiden van de hoofd content.
+#### Ignore Conventions
+Het ontwerp is gemaakt voor 1 groep mensen en zal daardoor bepaalde mensen uitsluiten. Ik koos ervoor dat het goed was dat de achtergrond elementen soms erg afleidend konden werken en daardoor de content wat minder belangrijk wordt.
 #### Add Nonsense
 Om de video visueler en daardoor aantrekkelijker te maken, heb ik verschillende elementen toegevoegd. Deze elementen wijken erg af van het oorspronkelijke principe waarin less-is-more meer het uitgangspunt is. Deze elementen zijn echter wel nodig om bepaalde gevoelens bij de mensen op te roepen en vooral zonder geluid een gelijkwaardige ervaring te bieden.
 
