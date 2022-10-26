@@ -48,8 +48,9 @@ Allereerst heb ik de video bekeken zonder geluid, dit gaf een goede indruk hoe m
 #### Ignore Conventions
 
 #### Prioritise Identity
-
+Ik begon dit project met het zoeken naar een passende stijl. Ik kwam al snel op een cyberpunk achtige stijl, die indruk kreeg ik door de film te hebben bekeken. Vervolgens heb ik deze stijl doorgetrokken gedurende de gehele video. Met daarbij allerlei visuele elemtenten die de kijker af kunnen leiden van de hoofd content.
 #### Add Nonsense
+Om de video visueler en daardoor aantrekkelijker te maken, heb ik verschillende elementen toegevoegd. Deze elementen wijken erg af van het oorspronkelijke principe waarin less-is-more meer het uitgangspunt is. Deze elementen zijn echter wel nodig om bepaalde gevoelens bij de mensen op te roepen en vooral zonder geluid een gelijkwaardige ervaring te bieden.
 
 ## Eerste fragment 
 Het eerste fragment begint met dat K aankomt bij de basis van zijn werk. In het schip waarin hij alleen zit maakt hij contact met de basis. Tijdens dit fragment gaan er verschillende lichten buiten het frame heen en weer, deze stellen het overige luchtverkeer voor. Verder zijn verschillende alarmen te horen, ieder uniek op zichzelf staand. Voor deze Alarmen heb ik ervoor gekozen om een border glow toe te voegen die de intensiteit van het alarm geluid representeert. Ook beweegt het frame van de video, deze bewegingen is gebaseerd op het gevoel die ik bij elk soort alarm kreeg.
